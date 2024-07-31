@@ -29,3 +29,38 @@
   padding: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
+/**---‐----------------------------Main Section Style---------------------------------------**/
+
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container{
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .card{
+        width: 28%;
+        text-align: center;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+        height: 390px;
+        margin-bottom: 30px;
+    }
+    button{
+        padding: 8px 18px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+    .card div{
+        padding: 0px 30px;
+    }
+    .pagination{
+        text-align: center;
+    }
+    h2{
+        margin: 0px;
+    }
